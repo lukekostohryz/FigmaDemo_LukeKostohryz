@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="home-page">
+
+      <div id="nav-holder" > </div>
+      
+      <div class="header-section">
+        <div class="header-content">
+          <div class="title-subtitle">
+            <div class="text-wrapper-2">Motion &amp; UI/UX Design</div>
+            <div class="visual-designer">Luke Kostohryz</div>
+            <p class="text-wrapper-3">
+              This portfolio contains works of art that have nothing to do with product or motion design, but they sure
+              are pretty to look at. These are the foundational art pieces that drive my designs.
+            </p>
+          </div>
+          <a href="https://www.animaapp.com" target="_blank" rel="noopener noreferrer"
+            ><div class="button"><div class="text-wrapper-4">Contact</div></div></a
+          >
+        </div>
+        <img class="headerimage" src="img/headerimage-1.png" />
+      </div>
+      <div class="skills-section">
+        <div class="cards-section">
+          <div class="skills-card">
+            <img class="skills-card-icon" src="img/skills-card-icon-2.png" />
+            <div class="div-2">
+              <div class="title">Product Design</div>
+              <p class="this-is-a-template">Building helpful things for helpful people.</p>
+            </div>
+          </div>
+          <div class="skills-card">
+            <img class="img" src="img/skills-card-icon-1.png" />
+            <div class="div-2">
+              <div class="title">Visual Design</div>
+              <p class="this-is-a-template">Designing pretty things for pretty (awesome) people.</p>
+            </div>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-icon-2" src="img/skills-card-icon.png" />
+            <div class="div-2">
+              <div class="title">Art Direction</div>
+              <p class="this-is-a-template">Art directing passion projects for passionate people.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <div class="latest-work">Traditional Media</div>
+        <div class="cards-section-2">
+          <div class="div-3">
+            <img class="image" src="img/image-5.png" />
+            <div class="title-description">
+              <p class="text-wrapper-2">But the Murder Sang On</p>
+              <div class="text-wrapper-3">Oil Painting</div>
+            </div>
+          </div>
+          <div class="div-3">
+            <img class="image" src="img/image-4.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">Cardinal Direction</div>
+              <div class="text-wrapper-3">Oil Painting</div>
+            </div>
+          </div>
+          <div class="div-3">
+            <img class="image" src="img/image-3.png" />
+            <div class="title-description">
+              <p class="text-wrapper-2">God’s Messenger was a Bird</p>
+              <div class="text-wrapper-3">Oil Painting</div>
+            </div>
+          </div>
+          <div class="div-3">
+            <img class="image" src="img/image-2.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">A Man’s Amen</div>
+              <div class="text-wrapper-3">Oil Painting</div>
+            </div>
+          </div>
+          <div class="div-3">
+            <img class="image" src="img/image-1.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">Miracle</div>
+              <div class="text-wrapper-3">Oil Painting</div>
+            </div>
+          </div>
+          <div class="div-3">
+            <img class="image" src="img/image.png" />
+            <div class="title-description">
+              <div class="text-wrapper-2">A Healing Touch</div>
+              <div class="text-wrapper-3">Charcoal Drawing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-holder" > </div>
+
+    </div>
+  </body>
+</html>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+    $("#nav-holder").replaceWith(data);
+});
+
+$.get("footer.html", function(data){
+    $("#footer-holder").replaceWith(data);
+});
+
+</script>  
